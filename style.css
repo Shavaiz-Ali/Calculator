@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid blue;
+    /* width: 50%; */
+    padding: 20px;
+    background-color: green;
+}
+
+.button {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(red, rgb(224, 99, 120));
+    border: 0;
+    transition: all 0.5s;
+}
+
+.main {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 20px;
+}
+
+.numbutton {
+    height: 50px;
+    width: 78px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.numbutton:hover {
+    background: linear-gradient(red, rgb(224, 99, 120));
+    border: 0;
+    transition: all 0.5s;
+}
+
+.oprabutton {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0;
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.oprabutton:hover {
+    background: linear-gradient(red, rgb(224, 99, 120));
+    border: 0;
+    transition: all 0.5s;
+}
